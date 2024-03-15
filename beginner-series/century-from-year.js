@@ -21,3 +21,9 @@ Examples
 const century = (year) => {
     return Math.ceil(year / 100);
 };
+
+/* 
+    We could also use one ligne arrow function like this :
+
+    const century = year => Math.ceil(year/100)
+*/
